@@ -3,4 +3,4 @@ while True:
         inputszam = int(input("Adj meg egy számot: "))
         break
     except ValueError:
-        print("Nem egész szám!")
+        print("Nem egész szám!!")
