@@ -1,0 +1,2 @@
+class Etel:
+    pass
