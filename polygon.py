@@ -4,9 +4,10 @@ class Polygon:
     def __init__(self, sides, color='piros'):  # önmagára mutató pointer
         self.sides = sides
         self.color = color
-        self.oldalszelesseg = 2
+        self._oldalszelesseg = 2 # private attributum _oldalszelesseg
         print('This is a polygon')
-
+def getoldalszelesseg (self):
+    return self._oldalszelesseg
 
 class Triangle:
     pass
@@ -21,4 +22,4 @@ print(f"Ennek a polygonnak {your_polygon.sides} oldala van és a színe {your_po
 print(id(your_polygon))
 
 third_polygon = Polygon(5)
-print(f"Ennek a polygonnak {third_polygon.sides} oldala van, a színe {third_polygon.color} és oldalainak szélessége {third_polygon.oldalszelesseg}")
+print(f"Ennek a polygonnak {third_polygon.sides} oldala van, a színe {third_polygon.color} és oldalainak szélessége {third_polygon.oldalszelessegoldalszelesseg}")
