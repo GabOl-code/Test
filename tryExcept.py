@@ -6,4 +6,4 @@ while True:
         break
 
     except ValueError:
-        print("Nem egész szám!!")
+        print("Nem egész szám!! Próbáld újra!")
