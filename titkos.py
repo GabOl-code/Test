@@ -9,6 +9,6 @@ class Titkos:
 obj = Titkos()
 obj.kiir() #Output: Titkos üzenet
 
-obj._Titkos_szuper_titkos_attributum = "Nem annyira titkos"
+obj.__titkos_attributum = "Nem annyira titkos"
 
 obj.kiir()
